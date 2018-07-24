@@ -16,13 +16,17 @@
 
   a:-webkit-any-link,
   a:-webkit-any-link:hover,
-  a:-webkit-any-link:focus {          /* ALL LINKS */
+  a:-webkit-any-link:focus {          
     text-decoration: none;
     color: white;
   }
-
-
-  .sub-banner-text{                   /* SECTION HEADERS */
+  
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+ 
+  .sub-banner-text{                   
     font-weight: bold;
     text-align: center;
     font-size:28px;
@@ -148,67 +152,36 @@
     width: 80px;
   }
 
-/* ==PROJECT SECTION== */
-  .projects {
-    height: auto;
-    margin: 20px;
-    
+  /* ==PROJECTS SECTION== */
+  #projectsSection {
+    background-color: white;
+    color: black;
+    font-weight: bold;
   }
-  .proj-img-div{
-    text-align: center;
-    width: auto
-  }
-  .proj-img {
-    height: 100px;
-    width: auto;
-    padding: 0;
-    margin: 0;
-  }
-  .proj-text-div{
-    height: auto;
+  .skill-div {
     padding: 10px;
   }
-  .proj-text-header{
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px;
-  }
-  .proj-br{
-    display: block;
-  }
-  .proj-links{
-    font-size: 14px;
-  }
-  .proj-links > a {
-    color: #2e77ff;
-    text-decoration: underline;
-  }
-  .proj-text-sub-header{
-    text-align: center;
-    font-style: italic;
-    font-size: 14px;
-  }
-  .proj-text{
-    text-align: center;
-    padding-top: 10px;
-    font-size: 16px;
+
+  .skill-img {
+    height: 80px;
+    width: 80px;
   }
 
 /* ==CONTACT SECTION== */
   #contactSection {
-    background-color: #333;
+    background-color:blue;
     color: white;
   }
   .contact-imgs {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     margin: 5px;
   }
 
 /* ==FOOTER== */
   .footer {
     color: #fff;
-    background-color: #333;
+    background-color: royalblue;
     height: auto;
     padding: 10px;
   }
